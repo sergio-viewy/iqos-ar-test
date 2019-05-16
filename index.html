@@ -44,13 +44,21 @@
     <a-assets>
       <!-- <a-asset-item id="iqos3" src="iqos3/iqos3.gltf"></a-asset-item>
       <a-asset-item id="test" src="scene.gltf"></a-asset-item> -->
+      <a-asset-item id="iqos3" src="iqos3/iqos3.gltf"></a-asset-item>
       <a-asset-item id="cube" src="cube/AnimatedMorphCube.gltf"></a-asset-item>
     </a-assets>
-    <a-marker preset='hiro'>
+    <!-- <a-marker preset='hiro'>
       <a-entity
         scale="0.5 0.5 0.5"
         rotation="0 -90 0"
         gltf-model="#cube"
+      ></a-entity>
+    </a-marker> -->
+    <a-marker preset='hiro'>
+      <a-entity
+        scale="0.5 0.5 0.5"
+        rotation="0 -90 0"
+        gltf-model="#iqos3"
       ></a-entity>
     </a-marker>
     <!-- <a-marker preset='hiro'>
