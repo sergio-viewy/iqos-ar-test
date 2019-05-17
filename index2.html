@@ -1,0 +1,100 @@
+<script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
+<script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+<!--
+    aframe-extras loaders is needed in order to add glTF models (And a whole lot of other model formats) into your AR Project.
+    
+    If your project requires multiple model types to be inluded use aframe-extras.loaders.min.js
+    Get it here: https://github.com/donmccurdy/aframe-extras/tree/master/dist
+    
+    If your project only requires one model format to be included, use the specific library you require
+    Get it here: https://github.com/donmccurdy/aframe-extras/tree/master/src/loaders
+    NOTE: From aframe 0.7.0 glTF 2.0 will be directly supported and would not require any seperate loader files.
+-->
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+<script>
+  AFRAME.registerComponent('play-on-scan', { init: function () {
+    var el = this.el;
+    el.sceneEl.addEventListener('markerFound', function () {
+      el.setAttribute('animation-mixer', {
+        clip: '*', loop: 'once'});
+        // el.emit('ar-ready');
+      });
+      // el.setAttribute('sound', src: url(images/sonido.mp3));
+    }
+  });
+</script>
+
+<style>
+  #arjsDebugUIContainer {
+    display: none;
+  }
+  .a-enter-vr {
+    display: none;
+  }
+</style>
+<body style='margin : 0px; overflow: hidden;'>
+  <a-scene embedded arjs='sourceType: webcam;'>
+    <!--
+      glTF 2.0 Model - busterDrone.gltf
+      Using the default hiro marker (Get it below)
+      https://akashkuttappa.github.io/ar/markers/hiro.jpg
+    -->
+    <!-- define your gltf asset -->
+    <a-assets>
+      <!-- <a-asset-item id="iqos3" src="iqos3/iqos3.gltf"></a-asset-item>
+      <a-asset-item id="test" src="scene.gltf"></a-asset-item> 
+      <a-asset-item id="cube" src="cube/AnimatedMorphCube.gltf"></a-asset-item>-->
+      <a-asset-item id="iqos24" src="iqos24/iQOS_2.4_AnimacionFinal.gltf"></a-asset-item>
+      <a-asset-item id="iqos3" src="iqos3/iqos3.gltf"></a-asset-item>
+      <!-- <a-asset-item id="iqos3m" src="iqos3m/iqos3m.gltf"></a-asset-item> -->
+      <a-asset-item id="iqos3mfinal" src="iqos3mfinal/iqos3mfinal.gltf"></a-asset-item>
+    </a-assets>
+    <!-- <a-marker preset='hiro'>
+      <a-entity
+        scale="0.5 0.5 0.5"
+        rotation="0 -90 0"
+        gltf-model="#cube"
+      ></a-entity>
+    </a-marker> -->
+    <a-marker preset='hiro'>
+      <a-entity
+        scale="0.5 0.5 0.5"
+        rotation="0 -90 90"
+        position="0 0 0"
+        gltf-model="#iqos3"
+        play-on-scan
+      ></a-entity>
+    </a-marker>
+    <!-- <a-marker preset='hiro'>
+      <a-entity
+        scale="0.3 0.3 0.3"
+        rotation="90 90 -90"
+        position="0 0 0"
+        gltf-model="#iqos3mfinal"
+        play-on-scan
+      ></a-entity>
+    </a-marker> -->
+    <!-- <a-marker preset='hiro'>
+      <a-entity
+        scale="0.5 0.5 0.5"
+        rotation="0 -90 0"
+        gltf-model="#test"
+      ></a-entity>
+      <a-text value="Hello World"></a-text>
+      <a-sphere color="yellow" radius="5"></a-sphere>
+    </a-marker>
+    <a-marker type="pattern" url="iqos3/pattern-marker.patt">
+      <a-entity
+        scale="0.5 0.5 0.5"
+        rotation="0 -90 90"
+        gltf-model="#iqos3"
+        animation-mixer
+      ></a-entity>
+    </a-marker> -->
+    <a-entity camera></a-entity>
+  </a-scene>
+</body>
+
+<!-- animation-mixer="clip:*; loop: once;"
+rotation="0 -90 90" -->
