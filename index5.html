@@ -39,18 +39,14 @@
       https://akashkuttappa.github.io/ar/markers/hiro.jpg
     -->
     <!-- define your gltf asset -->
-    <a-assets>
-      <a-asset-item id="iqos24-obj" src="model/iqos24s.obj"></a-asset-item>
-      <a-asset-item id="iqos24-mtl" src="model/iqos24s.mtl"></a-asset-item>
-    </a-assets>
     <a-marker preset='hiro'>
       <a-entity
-        scale="1 1 1"
-        rotation="0 0 0"
         position="0 0 0"
-        src="#iqos24-obj"
-        mtl="#iqos24-mtl"
+        scale="0.5 0.5 0.5"
+        rotation="0 0 0"
+        obj-model="obj: url(model/iqos24s.obj); mtl: url(model/iqos24s.mtl);"
       ></a-entity>
+    </a-marker>
     </a-marker>
     
     <a-entity camera></a-entity>
