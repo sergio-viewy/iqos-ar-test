@@ -3085,7 +3085,7 @@
         {
             "bufferView" : 213,
             "componentType" : 5126,
-            "count" : 54,
+            "count" : 65,
             "max" : [
                 50.04166666666667
             ],
@@ -3097,7 +3097,7 @@
         {
             "bufferView" : 214,
             "componentType" : 5126,
-            "count" : 162,
+            "count" : 195,
             "max" : [
                 0.0,
                 0.0,
@@ -3143,7 +3143,7 @@
         {
             "bufferView" : 217,
             "componentType" : 5126,
-            "count" : 54,
+            "count" : 65,
             "max" : [
                 50.04166666666667
             ],
@@ -3155,11 +3155,11 @@
         {
             "bufferView" : 218,
             "componentType" : 5126,
-            "count" : 162,
+            "count" : 195,
             "max" : [
-                1.0,
-                1.0,
-                1.0
+                4.265181064605713,
+                4.265181064605713,
+                4.265181064605713
             ],
             "min" : [
                 -5.87531852722168,
@@ -5276,38 +5276,38 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 216,
+            "byteLength" : 260,
             "byteOffset" : 7273308
         },
         {
             "buffer" : 0,
-            "byteLength" : 1944,
-            "byteOffset" : 7273524
+            "byteLength" : 2340,
+            "byteOffset" : 7273568
         },
         {
             "buffer" : 0,
             "byteLength" : 4808,
-            "byteOffset" : 7275468
+            "byteOffset" : 7275908
         },
         {
             "buffer" : 0,
             "byteLength" : 19232,
-            "byteOffset" : 7280276
+            "byteOffset" : 7280716
         },
         {
             "buffer" : 0,
-            "byteLength" : 216,
-            "byteOffset" : 7299508
+            "byteLength" : 260,
+            "byteOffset" : 7299948
         },
         {
             "buffer" : 0,
-            "byteLength" : 1944,
-            "byteOffset" : 7299724
+            "byteLength" : 2340,
+            "byteOffset" : 7300208
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 7301668,
+            "byteLength" : 7302548,
             "uri" : "iqos24.bin"
         }
     ],
