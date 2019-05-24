@@ -2801,7 +2801,7 @@
         {
             "bufferView" : 192,
             "componentType" : 5126,
-            "count" : 7,
+            "count" : 8,
             "max" : [
                 7.041666666666667
             ],
@@ -2813,16 +2813,16 @@
         {
             "bufferView" : 193,
             "componentType" : 5126,
-            "count" : 21,
+            "count" : 24,
             "max" : [
-                1.0009065866470337,
-                0.2691519260406494,
-                -0.0
+                3.0451579093933105,
+                20.334186553955078,
+                3.1493746632804687e-07
             ],
             "min" : [
+                -0.0009455893887206912,
                 0.0,
-                0.0,
-                -0.004871519282460213
+                -0.0
             ],
             "type" : "VEC3"
         },
@@ -2845,13 +2845,13 @@
             "max" : [
                 0.0,
                 0.0,
-                -0.0,
+                4.602232223788194e-12,
                 1.0
             ],
             "min" : [
                 0.0,
                 0.0,
-                -0.0,
+                4.602232223788194e-12,
                 1.0
             ],
             "type" : "VEC4"
@@ -2859,7 +2859,7 @@
         {
             "bufferView" : 196,
             "componentType" : 5126,
-            "count" : 7,
+            "count" : 8,
             "max" : [
                 7.041666666666667
             ],
@@ -2871,11 +2871,11 @@
         {
             "bufferView" : 197,
             "componentType" : 5126,
-            "count" : 21,
+            "count" : 24,
             "max" : [
-                0.0,
-                0.0,
-                0.0
+                0.6526648998260498,
+                2.973862648010254,
+                0.6798139810562134
             ],
             "min" : [
                 0.0,
@@ -2901,14 +2901,14 @@
             "componentType" : 5126,
             "count" : 21,
             "max" : [
-                0.0,
-                8.017152786254883,
+                1.0009065866470337,
+                0.2691519260406494,
                 -0.0
             ],
             "min" : [
-                -0.4431304931640625,
                 0.0,
-                -0.0348726361989975
+                0.0,
+                -0.004871519282460213
             ],
             "type" : "VEC3"
         },
@@ -2931,13 +2931,13 @@
             "max" : [
                 0.0,
                 0.0,
-                4.602232223788194e-12,
+                -0.0,
                 1.0
             ],
             "min" : [
                 0.0,
                 0.0,
-                4.602232223788194e-12,
+                -0.0,
                 1.0
             ],
             "type" : "VEC4"
@@ -2988,13 +2988,13 @@
             "count" : 21,
             "max" : [
                 0.0,
-                0.6685306429862976,
-                0.019500941038131714
+                8.017152786254883,
+                -0.0
             ],
             "min" : [
-                -0.1470651924610138,
+                -0.4431304931640625,
                 0.0,
-                -0.0
+                -0.0348726361989975
             ],
             "type" : "VEC3"
         },
@@ -3017,13 +3017,13 @@
             "max" : [
                 0.0,
                 0.0,
-                -0.0,
+                4.602232223788194e-12,
                 1.0
             ],
             "min" : [
                 0.0,
                 0.0,
-                -0.0,
+                4.602232223788194e-12,
                 1.0
             ],
             "type" : "VEC4"
@@ -3045,9 +3045,9 @@
             "componentType" : 5126,
             "count" : 21,
             "max" : [
-                0.003963364288210869,
-                0.003963364288210869,
-                0.003963364288210869
+                0.0,
+                0.0,
+                0.0
             ],
             "min" : [
                 0.0,
@@ -3073,12 +3073,12 @@
             "componentType" : 5126,
             "count" : 21,
             "max" : [
-                1.0009065866470337,
-                0.5755199193954468,
-                0.0025609394069761038
+                0.0,
+                0.6685306429862976,
+                0.019500941038131714
             ],
             "min" : [
-                0.0,
+                -0.1470651924610138,
                 0.0,
                 -0.0
             ],
@@ -3101,16 +3101,16 @@
             "componentType" : 5126,
             "count" : 170,
             "max" : [
-                0.005989579949527979,
-                -0.4373573362827301,
-                -0.006583724170923233,
-                0.8992438912391663
+                0.0,
+                0.0,
+                -0.0,
+                1.0
             ],
             "min" : [
-                0.005989579949527979,
-                -0.4373573362827301,
-                -0.006583724170923233,
-                0.8992438912391663
+                0.0,
+                0.0,
+                -0.0,
+                1.0
             ],
             "type" : "VEC4"
         },
@@ -3131,9 +3131,9 @@
             "componentType" : 5126,
             "count" : 21,
             "max" : [
-                0.0,
-                0.0,
-                0.0
+                0.003963364288210869,
+                0.003963364288210869,
+                0.003963364288210869
             ],
             "min" : [
                 0.0,
@@ -3159,14 +3159,14 @@
             "componentType" : 5126,
             "count" : 21,
             "max" : [
-                0.002861499786376953,
-                5.178641319274902,
-                -0.0
+                1.0009065866470337,
+                0.5755199193954468,
+                0.0025609394069761038
             ],
             "min" : [
-                -4.261332988739014,
                 0.0,
-                -0.000908920424990356
+                0.0,
+                -0.0
             ],
             "type" : "VEC3"
         },
@@ -3187,16 +3187,16 @@
             "componentType" : 5126,
             "count" : 170,
             "max" : [
-                8.552777330805839e-08,
-                0.0,
-                -5.13885912989398e-11,
-                1.0
+                0.005989579949527979,
+                -0.4373573362827301,
+                -0.006583724170923233,
+                0.8992438912391663
             ],
             "min" : [
-                8.552777330805839e-08,
-                0.0,
-                -5.13885912989398e-11,
-                1.0
+                0.005989579949527979,
+                -0.4373573362827301,
+                -0.006583724170923233,
+                0.8992438912391663
             ],
             "type" : "VEC4"
         },
@@ -3214,6 +3214,92 @@
         },
         {
             "bufferView" : 221,
+            "componentType" : 5126,
+            "count" : 21,
+            "max" : [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "min" : [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 222,
+            "componentType" : 5126,
+            "count" : 7,
+            "max" : [
+                7.041666666666667
+            ],
+            "min" : [
+                0.0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 223,
+            "componentType" : 5126,
+            "count" : 21,
+            "max" : [
+                0.002861499786376953,
+                5.178641319274902,
+                -0.0
+            ],
+            "min" : [
+                -4.261332988739014,
+                0.0,
+                -0.000908920424990356
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 224,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                7.041666666666667
+            ],
+            "min" : [
+                0.0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 225,
+            "componentType" : 5126,
+            "count" : 170,
+            "max" : [
+                8.552777330805839e-08,
+                0.0,
+                -5.13885912989398e-11,
+                1.0
+            ],
+            "min" : [
+                8.552777330805839e-08,
+                0.0,
+                -5.13885912989398e-11,
+                1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 226,
+            "componentType" : 5126,
+            "count" : 7,
+            "max" : [
+                7.041666666666667
+            ],
+            "min" : [
+                0.0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 227,
             "componentType" : 5126,
             "count" : 21,
             "max" : [
@@ -3343,19 +3429,19 @@
             "name" : "Resistencia.001Action",
             "samplers" : [
                 {
-                    "input" : 204,
+                    "input" : 210,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 205
+                    "output" : 211
                 },
                 {
-                    "input" : 206,
+                    "input" : 212,
                     "interpolation" : "LINEAR",
-                    "output" : 207
+                    "output" : 213
                 },
                 {
-                    "input" : 208,
+                    "input" : 214,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 209
+                    "output" : 215
                 }
             ]
         },
@@ -3450,41 +3536,41 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 12,
+                        "node" : 16,
                         "path" : "translation"
                     }
                 },
                 {
                     "sampler" : 1,
                     "target" : {
-                        "node" : 12,
+                        "node" : 16,
                         "path" : "rotation"
                     }
                 },
                 {
                     "sampler" : 2,
                     "target" : {
-                        "node" : 12,
+                        "node" : 16,
                         "path" : "scale"
                     }
                 }
             ],
-            "name" : "Cube.007Action",
+            "name" : "IQOS COSI GIRAction",
             "samplers" : [
                 {
-                    "input" : 162,
+                    "input" : 180,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 163
+                    "output" : 181
                 },
                 {
-                    "input" : 164,
+                    "input" : 182,
                     "interpolation" : "LINEAR",
-                    "output" : 165
+                    "output" : 183
                 },
                 {
-                    "input" : 166,
+                    "input" : 184,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 167
+                    "output" : 185
                 }
             ]
         },
@@ -3515,19 +3601,19 @@
             "name" : "TabacoAction",
             "samplers" : [
                 {
-                    "input" : 210,
+                    "input" : 216,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 211
+                    "output" : 217
                 },
                 {
-                    "input" : 212,
+                    "input" : 218,
                     "interpolation" : "LINEAR",
-                    "output" : 213
+                    "output" : 219
                 },
                 {
-                    "input" : 214,
+                    "input" : 220,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 215
+                    "output" : 221
                 }
             ]
         },
@@ -3558,19 +3644,19 @@
             "name" : "PapelAction",
             "samplers" : [
                 {
-                    "input" : 192,
+                    "input" : 198,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 193
+                    "output" : 199
                 },
                 {
-                    "input" : 194,
+                    "input" : 200,
                     "interpolation" : "LINEAR",
-                    "output" : 195
+                    "output" : 201
                 },
                 {
-                    "input" : 196,
+                    "input" : 202,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 197
+                    "output" : 203
                 }
             ]
         },
@@ -3622,6 +3708,49 @@
                 {
                     "sampler" : 0,
                     "target" : {
+                        "node" : 12,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 12,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 12,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "Cube.007Action",
+            "samplers" : [
+                {
+                    "input" : 162,
+                    "interpolation" : "CUBICSPLINE",
+                    "output" : 163
+                },
+                {
+                    "input" : 164,
+                    "interpolation" : "LINEAR",
+                    "output" : 165
+                },
+                {
+                    "input" : 166,
+                    "interpolation" : "CUBICSPLINE",
+                    "output" : 167
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
                         "node" : 21,
                         "path" : "translation"
                     }
@@ -3644,19 +3773,19 @@
             "name" : "ResistenciaAction",
             "samplers" : [
                 {
-                    "input" : 198,
+                    "input" : 204,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 199
+                    "output" : 205
                 },
                 {
-                    "input" : 200,
+                    "input" : 206,
                     "interpolation" : "LINEAR",
-                    "output" : 201
+                    "output" : 207
                 },
                 {
-                    "input" : 202,
+                    "input" : 208,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 203
+                    "output" : 209
                 }
             ]
         },
@@ -3859,19 +3988,19 @@
             "name" : "Tapa CleanerAction",
             "samplers" : [
                 {
-                    "input" : 216,
+                    "input" : 222,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 217
+                    "output" : 223
                 },
                 {
-                    "input" : 218,
+                    "input" : 224,
                     "interpolation" : "LINEAR",
-                    "output" : 219
+                    "output" : 225
                 },
                 {
-                    "input" : 220,
+                    "input" : 226,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 221
+                    "output" : 227
                 }
             ]
         },
@@ -3880,41 +4009,41 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 16,
+                        "node" : 4,
                         "path" : "translation"
                     }
                 },
                 {
                     "sampler" : 1,
                     "target" : {
-                        "node" : 16,
+                        "node" : 4,
                         "path" : "rotation"
                     }
                 },
                 {
                     "sampler" : 2,
                     "target" : {
-                        "node" : 16,
+                        "node" : 4,
                         "path" : "scale"
                     }
                 }
             ],
-            "name" : "IQOS COSI GIRAction",
+            "name" : "CleanerAction",
             "samplers" : [
                 {
-                    "input" : 180,
+                    "input" : 114,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 181
+                    "output" : 115
                 },
                 {
-                    "input" : 182,
+                    "input" : 116,
                     "interpolation" : "LINEAR",
-                    "output" : 183
+                    "output" : 117
                 },
                 {
-                    "input" : 184,
+                    "input" : 118,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 185
+                    "output" : 119
                 }
             ]
         },
@@ -4009,41 +4138,41 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 4,
+                        "node" : 19,
                         "path" : "translation"
                     }
                 },
                 {
                     "sampler" : 1,
                     "target" : {
-                        "node" : 4,
+                        "node" : 19,
                         "path" : "rotation"
                     }
                 },
                 {
                     "sampler" : 2,
                     "target" : {
-                        "node" : 4,
+                        "node" : 19,
                         "path" : "scale"
                     }
                 }
             ],
-            "name" : "CleanerAction",
+            "name" : "IQOS TAPAAction",
             "samplers" : [
                 {
-                    "input" : 114,
+                    "input" : 192,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 115
+                    "output" : 193
                 },
                 {
-                    "input" : 116,
+                    "input" : 194,
                     "interpolation" : "LINEAR",
-                    "output" : 117
+                    "output" : 195
                 },
                 {
-                    "input" : 118,
+                    "input" : 196,
                     "interpolation" : "CUBICSPLINE",
-                    "output" : 119
+                    "output" : 197
                 }
             ]
         },
@@ -5234,158 +5363,188 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 28,
+            "byteLength" : 32,
             "byteOffset" : 4164660
         },
         {
             "buffer" : 0,
-            "byteLength" : 252,
-            "byteOffset" : 4164688
+            "byteLength" : 288,
+            "byteOffset" : 4164692
         },
         {
             "buffer" : 0,
             "byteLength" : 680,
-            "byteOffset" : 4164940
+            "byteOffset" : 4164980
         },
         {
             "buffer" : 0,
             "byteLength" : 2720,
-            "byteOffset" : 4165620
+            "byteOffset" : 4165660
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 4168380
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 4168412
         },
         {
             "buffer" : 0,
             "byteLength" : 28,
-            "byteOffset" : 4168340
+            "byteOffset" : 4168700
         },
         {
             "buffer" : 0,
             "byteLength" : 252,
-            "byteOffset" : 4168368
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 28,
-            "byteOffset" : 4168620
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 252,
-            "byteOffset" : 4168648
+            "byteOffset" : 4168728
         },
         {
             "buffer" : 0,
             "byteLength" : 680,
-            "byteOffset" : 4168900
+            "byteOffset" : 4168980
         },
         {
             "buffer" : 0,
             "byteLength" : 2720,
-            "byteOffset" : 4169580
+            "byteOffset" : 4169660
         },
         {
             "buffer" : 0,
             "byteLength" : 28,
-            "byteOffset" : 4172300
+            "byteOffset" : 4172380
         },
         {
             "buffer" : 0,
             "byteLength" : 252,
-            "byteOffset" : 4172328
+            "byteOffset" : 4172408
         },
         {
             "buffer" : 0,
             "byteLength" : 28,
-            "byteOffset" : 4172580
+            "byteOffset" : 4172660
         },
         {
             "buffer" : 0,
             "byteLength" : 252,
-            "byteOffset" : 4172608
+            "byteOffset" : 4172688
         },
         {
             "buffer" : 0,
             "byteLength" : 680,
-            "byteOffset" : 4172860
+            "byteOffset" : 4172940
         },
         {
             "buffer" : 0,
             "byteLength" : 2720,
-            "byteOffset" : 4173540
+            "byteOffset" : 4173620
         },
         {
             "buffer" : 0,
             "byteLength" : 28,
-            "byteOffset" : 4176260
+            "byteOffset" : 4176340
         },
         {
             "buffer" : 0,
             "byteLength" : 252,
-            "byteOffset" : 4176288
+            "byteOffset" : 4176368
         },
         {
             "buffer" : 0,
             "byteLength" : 28,
-            "byteOffset" : 4176540
+            "byteOffset" : 4176620
         },
         {
             "buffer" : 0,
             "byteLength" : 252,
-            "byteOffset" : 4176568
+            "byteOffset" : 4176648
         },
         {
             "buffer" : 0,
             "byteLength" : 680,
-            "byteOffset" : 4176820
+            "byteOffset" : 4176900
         },
         {
             "buffer" : 0,
             "byteLength" : 2720,
-            "byteOffset" : 4177500
+            "byteOffset" : 4177580
         },
         {
             "buffer" : 0,
             "byteLength" : 28,
-            "byteOffset" : 4180220
+            "byteOffset" : 4180300
         },
         {
             "buffer" : 0,
             "byteLength" : 252,
-            "byteOffset" : 4180248
+            "byteOffset" : 4180328
         },
         {
             "buffer" : 0,
             "byteLength" : 28,
-            "byteOffset" : 4180500
+            "byteOffset" : 4180580
         },
         {
             "buffer" : 0,
             "byteLength" : 252,
-            "byteOffset" : 4180528
+            "byteOffset" : 4180608
         },
         {
             "buffer" : 0,
             "byteLength" : 680,
-            "byteOffset" : 4180780
+            "byteOffset" : 4180860
         },
         {
             "buffer" : 0,
             "byteLength" : 2720,
-            "byteOffset" : 4181460
+            "byteOffset" : 4181540
         },
         {
             "buffer" : 0,
             "byteLength" : 28,
-            "byteOffset" : 4184180
+            "byteOffset" : 4184260
         },
         {
             "buffer" : 0,
             "byteLength" : 252,
-            "byteOffset" : 4184208
+            "byteOffset" : 4184288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28,
+            "byteOffset" : 4184540
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 252,
+            "byteOffset" : 4184568
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 680,
+            "byteOffset" : 4184820
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2720,
+            "byteOffset" : 4185500
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28,
+            "byteOffset" : 4188220
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 252,
+            "byteOffset" : 4188248
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 4184460,
+            "byteLength" : 4188500,
             "uri" : "iqos3m.bin"
         }
     ],
