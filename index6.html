@@ -47,15 +47,15 @@
     -->
     <!-- define your gltf asset -->
     <a-assets>
-      <a-asset-item id="iqos24" src="iqos24Elements/iQOS_2.4_elementos.gltf"></a-asset-item>
+      <a-asset-item id="iqos24" src="iqos24/3iqos24.gltf"></a-asset-item>
     </a-assets>
     <a-marker preset='hiro'>
       <a-entity
-        id="themodel"
         scale="0.3 0.3 0.3"
-        rotation="90 90 -90"
-        position="-3 0 0"
+        rotation="-90 90 -90"
+        position="4 0 0"
         gltf-model="#iqos24"
+        id="themodel"
       ></a-entity>
       <a-entity id="thebutton" geometry="primitive: box" material="color: red" position="0 -1 -2"></a-entity>
     </a-marker>
