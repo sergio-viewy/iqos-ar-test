@@ -13,27 +13,35 @@
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
 <script>
-  AFRAME.registerComponent('play-on-scan', {
+  /* AFRAME.registerComponent('play-on-scan', {
     init: function () {
       var el = this.el;
       el.sceneEl.addEventListener('markerFound', function () {
         el.setAttribute('animation-mixer', { clip: '*', loop: 'once'});
       });
     }
-  });
+  }); */
 
-  AFRAME.registerComponent('model-click', {
+  AFRAME.registerComponent('model-click1', {
     init: function() {
         var el = this.el;
-        /* var aEntity = document.querySelector("#themodel");
-        var aBox = document.querySelector('thebox'); */
 
         el.addEventListener('click', function(){
-          window.location.href = "http://stackoverflow.com";
-          /* aEntity.setAttribute('animation-mixer', { clip: '*', loop: 'once'});
-          aBox.style.display = 'none'; */
+          window.location.href = "https://www.spotify.com/co/";
         });
-    }});
+    }
+  });
+
+  AFRAME.registerComponent('model-click2', {
+    init: function() {
+      var el = this.el;
+      var aEntity = document.querySelector("#themodel");
+
+      el.addEventListener('click', function(){
+        aEntity.setAttribute('animation-mixer', { clip: '*', loop: 'once'});
+      });
+    }
+  });
 </script>
 
 <style>
@@ -63,8 +71,8 @@
         gltf-model="#iqos24"
         id="themodel"
       ></a-entity>
-      <a-entity id="thebox" geometry="primitive: box" material="color: yellow" position="1 0 2"></a-entity>
-      <a-entity id="thebutton" model-click geometry="primitive: box" material="color: red" position="0 -1 -2"></a-entity>
+      <a-entity id="thebox" model-click2 geometry="primitive: box" material="color: yellow" position="1 0 2"></a-entity>
+      <a-entity id="thebutton" model-click1 geometry="primitive: box" material="color: red" position="0 -1 -2"></a-entity>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
