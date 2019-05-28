@@ -13,24 +13,22 @@
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
 <script>
-  AFRAME.registerComponent('play-on-scan', { init: function () {
-    var el = this.el;
-    el.sceneEl.addEventListener('markerFound', function () {
-      el.setAttribute('animation-mixer', {
-        clip: '*', loop: 'once'});
-        // el.emit('ar-ready');
+  AFRAME.registerComponent('play-on-scan', {
+    init: function () {
+      var el = this.el;
+      el.sceneEl.addEventListener('markerFound', function () {
+        el.setAttribute('animation-mixer', { clip: '*', loop: 'once'});
       });
-      // el.setAttribute('sound', src: url(images/sonido.mp3));
     }
   });
 
   AFRAME.registerComponent('model-click', {
     init: function() {
-        const animatedMarker = document.document.querySelector("#thebutton");
-        const aEntity = document.querySelector("#themodel");
-        const aBox = document.querySelector('thebox');
+        var el = this.el;
+        var aEntity = document.querySelector("#themodel");
+        var aBox = document.querySelector('thebox');
 
-        animatedMarker.addEventListener('click', function(ev, target){
+        el.addEventListener('click', function(){
             aEntity.setAttribute('animation-mixer', { clip: '*', loop: 'once'});
             aBox.style.display = 'none';
         });
