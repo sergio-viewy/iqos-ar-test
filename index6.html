@@ -24,11 +24,17 @@
     }
   });
 
-  document.querySelector("#thebutton").addEventListener("click", (e)=> {
-    document.querySelector("#themodel").setAttribute('animation-mixer', {
-        clip: '*', loop: 'once'});
-    document.querySelector('thebox').style.display = 'none';
-  })
+  AFRAME.registerComponent('model-click', {
+    init: function() {
+        const animatedMarker = document.document.querySelector("#thebutton");
+        const aEntity = document.querySelector("#themodel");
+        const aBox = document.querySelector('thebox');
+
+        animatedMarker.addEventListener('click', function(ev, target){
+            aEntity.setAttribute('animation-mixer', { clip: '*', loop: 'once'});
+            aBox.style.display = 'none';
+        });
+    }});
 </script>
 
 <style>
@@ -58,8 +64,8 @@
         gltf-model="#iqos24"
         id="themodel"
       ></a-entity>
-      <a-entity id="thebox" geometry="primitive: box" material="color: yellow" position="0 1 2"></a-entity>
-      <a-entity id="thebutton" geometry="primitive: box" material="color: red" position="0 -1 -2"></a-entity>
+      <a-entity id="thebox" geometry="primitive: box" material="color: yellow" position="1 0 2"></a-entity>
+      <a-entity id="thebutton" model-click geometry="primitive: box" material="color: red" position="0 -1 -2"></a-entity>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
