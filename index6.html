@@ -25,12 +25,13 @@
   AFRAME.registerComponent('model-click', {
     init: function() {
         var el = this.el;
-        var aEntity = document.querySelector("#themodel");
-        var aBox = document.querySelector('thebox');
+        /* var aEntity = document.querySelector("#themodel");
+        var aBox = document.querySelector('thebox'); */
 
         el.addEventListener('click', function(){
-            aEntity.setAttribute('animation-mixer', { clip: '*', loop: 'once'});
-            aBox.style.display = 'none';
+          window.location.href = "http://stackoverflow.com";
+          /* aEntity.setAttribute('animation-mixer', { clip: '*', loop: 'once'});
+          aBox.style.display = 'none'; */
         });
     }});
 </script>
